@@ -121,7 +121,7 @@ def get(qr_id):
 @cross_origin()
 def tokenABI(token_id):
 
-    image_ipfs = 
+    image_ipfs = imageToDisplay()
     return {
         "description": "CHROMIC NFT EXAMPLE",
         "image": image_ipfs,
